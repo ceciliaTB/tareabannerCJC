@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+ 
+   width: 50%;
+   border: 5px red solid;
+
+}
+
+img{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+   position: absolute;
+   z-index: 5; 
+}
