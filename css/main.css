@@ -4,16 +4,30 @@
     box-sizing: border-box;
 }
 
-/* Hice estas correcciones en img*/
+
 img{
     width: 100%;
+    position: absolute;
 }
 
-/* Correcciones en id*/
-#paisaje {
-    position: relative;
-    width: 80%;
-    margin: 30px auto 0 auto;
+
+#banner{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+position: relative;
 }
 
-/* Faltan propiedades para p */
+#banner p{
+    position:absolute; 
+    margin-top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 10;
+    text-align: center;
+    font-size:x-large;
+    color: orangered;
+
+}
+/* Terminado */
