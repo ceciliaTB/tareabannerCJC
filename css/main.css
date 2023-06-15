@@ -4,22 +4,16 @@
     box-sizing: border-box;
 }
 
-div{
- 
-   width: 50%;
-   border: 5px red solid;
-
-}
-
+/* Hice estas correcciones en img*/
 img{
-    position: relative;
-    width: 30%;
-    height: 30%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 
-p{
-   position: absolute;
-   z-index: 5; 
+/* Correcciones en id*/
+#paisaje {
+    position: relative;
+    width: 80%;
+    margin: 30px auto 0 auto;
 }
+
+/* Faltan propiedades para p */
